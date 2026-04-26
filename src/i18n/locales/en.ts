@@ -300,6 +300,52 @@ const en = {
         "Browse our completed projects to see how our products perform in real-world large-scale applications.",
       button: "Discuss Your Requirements",
     },
+    detail: {
+      notFound: "Product not found",
+      backToProducts: "Back to Products",
+      sku: "SKU",
+      quickInfo: "Quick Info",
+      quickInfoItems: {
+        1: "Professional-grade construction material",
+        2: "Engineered for durability and performance",
+        3: "Trusted by industry leaders across the region",
+        4: "Custom solutions available on request",
+      },
+      requestCall: "Request a Call",
+      contactSales: "Contact Sales",
+      specsEyebrow: "Technical Data",
+      specifications: "Specifications",
+      specGroups: {
+        material: {
+          title: "Material Properties",
+          items: {
+            1: { label: "Material Grade", value: "High Strength Steel" },
+            2: { label: "Thickness Range", value: "3–12 mm" },
+            3: { label: "Surface Finish", value: "Hot Rolled / Galvanized" },
+            4: { label: "Tensile Strength", value: "360–450 MPa" },
+          },
+        },
+        dimensions: {
+          title: "Dimensions & Capacity",
+          items: {
+            1: { label: "Standard Lengths", value: "6–15 m" },
+            2: { label: "Width Options", value: "1–3 m" },
+            3: { label: "Load Capacity", value: "Up to 50 tons" },
+            4: { label: "Weight per Unit", value: "2–8 tons" },
+          },
+        },
+      },
+      descriptionEyebrow: "Details",
+      detailedDescription: "Detailed Description",
+      descriptionParagraphs: {
+        1: "This premium construction product is engineered to meet the highest industry standards. With advanced manufacturing techniques and rigorous quality control, each unit delivers exceptional performance in demanding industrial applications.",
+        2: "Designed for versatility, this product adapts to various construction scenarios while maintaining structural integrity. Our commitment to innovation ensures you receive a product that combines traditional reliability with modern engineering excellence.",
+        3: "Contact our technical team to discuss custom configurations, bulk orders, and delivery options tailored to your specific project requirements.",
+      },
+      ctaEyebrow: "Get Started",
+      ctaTitle: "Ready to Discuss Your Project?",
+      ctaDescription: "Our engineers are ready to provide technical consultation, pricing, and custom solutions within 24 hours.",
+    },
   },
   news: {
     header: {

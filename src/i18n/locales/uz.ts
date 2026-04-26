@@ -300,6 +300,52 @@ const uz = {
         "Mahsulotlarimiz yirik real loyihalarda qanday ishlashini ko'rish uchun bajarilgan obyektlarimiz bilan tanishing.",
       button: "Talablaringizni muhokama qilish",
     },
+    detail: {
+      notFound: "Mahsulot topilmadi",
+      backToProducts: "Mahsulotlarga qaytish",
+      sku: "Artikul",
+      quickInfo: "Qisqacha ma'lumot",
+      quickInfoItems: {
+        1: "Professional qurilish materiali",
+        2: "Chidamlilik va samaradorlik uchun ishlab chiqilgan",
+        3: "Mintaqa bo'ylab sanoat yetakchilari ishonadi",
+        4: "So'rov bo'yicha maxsus yechimlar",
+      },
+      requestCall: "Qo'ng'iroqni buyurtma qilish",
+      contactSales: "Sotuv bo'limi bilan bog'lanish",
+      specsEyebrow: "Texnik ma'lumotlar",
+      specifications: "Xususiyatlar",
+      specGroups: {
+        material: {
+          title: "Material xususiyatlari",
+          items: {
+            1: { label: "Material darajasi", value: "Yuqori mustahkamlik po'lat" },
+            2: { label: "Qalinlik diapazoni", value: "3–12 mm" },
+            3: { label: "Sirt qoplamasi", value: "Issiq prokat / Galvanizatsiyalangan" },
+            4: { label: "Mustahkamlik chegarasi", value: "360–450 MPa" },
+          },
+        },
+        dimensions: {
+          title: "O'lchamlar va yuk ko'tarish qobiliyati",
+          items: {
+            1: { label: "Standart uzunliklar", value: "6–15 m" },
+            2: { label: "Kenglik variantlari", value: "1–3 m" },
+            3: { label: "Yuk ko'tarish qobiliyati", value: "50 tonnagacha" },
+            4: { label: "Birlik og'irligi", value: "2–8 tonna" },
+          },
+        },
+      },
+      descriptionEyebrow: "Batafsil",
+      detailedDescription: "Batafsil tavsif",
+      descriptionParagraphs: {
+        1: "Bu premium qurilish mahsuloti eng yuqori sanoat standartlariga javob berish uchun ishlab chiqilgan. Ilg'or ishlab chiqarish texnologiyalari va qattiq sifat nazorati tufayli har bir birlik talabchan sanoat qo'llanmalarida ajoyib ishlashni ta'minlaydi.",
+        2: "Ko'p qirralilik uchun ishlab chiqilgan bu mahsulot konstruktiv yaxlitlikni saqlab qolgan holda turli qurilish ssenariylariga moslashadi. Bizning innovatsiyaga sodiqligimiz an'anaviy ishonchlilikni zamonaviy muhandislik mukammalligi bilan birlashtirgan mahsulotni olishingizni kafolatlaydi.",
+        3: "Maxsus konfiguratsiyalar, ulgurji buyurtmalar va sizning aniq loyiha talablaringizga moslashtirilgan yetkazib berish variantlarini muhokama qilish uchun bizning texnik jamoamiz bilan bog'laning.",
+      },
+      ctaEyebrow: "Boshlash",
+      ctaTitle: "Loyihangizni muhokama qilishga tayyormisiz?",
+      ctaDescription: "Bizning muhandislarimiz 24 soat ichida texnik maslahat, narxlar va maxsus yechimlar taqdim etishga tayyor.",
+    },
   },
   news: {
     header: {
