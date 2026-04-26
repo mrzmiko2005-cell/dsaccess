@@ -8,6 +8,8 @@ export const PAGE_PATHS: Record<PageId, string> = {
   contacts: "/contacts",
 };
 
+export const PRODUCT_DETAIL_PATH = "/products/:id";
+
 export const PAGE_TITLE_KEYS: Record<PageId, string> = {
   home: "meta.pages.home",
   about: "meta.pages.about",

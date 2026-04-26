@@ -80,7 +80,11 @@ export default function ProductsPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
                 {filtered.map((product) => (
-                  <div key={product.id} className="bg-white rounded-2xl border border-gray-100 shadow-[0_2px_16px_rgba(0,0,0,0.06)] group hover:border-[#1B3A6B]/30 hover:shadow-[0_8px_32px_rgba(27,58,107,0.12)] hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                  <div
+                    key={product.id}
+                    className="bg-white rounded-2xl border border-gray-100 shadow-[0_2px_16px_rgba(0,0,0,0.06)] group hover:border-[#1B3A6B]/30 hover:shadow-[0_8px_32px_rgba(27,58,107,0.12)] hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer"
+                    onClick={() => navigate(`/products/${product.id}`)}
+                  >
                     <div className="overflow-hidden aspect-[4/3]">
                       <img
                         src={product.image}
@@ -99,10 +103,13 @@ export default function ProductsPage() {
                         {product.description}
                       </p>
                       <button
-                        onClick={() => navigate(PAGE_PATHS.contacts)}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          navigate(`/products/${product.id}`);
+                        }}
                         className="flex items-center gap-1.5 text-sm font-semibold text-[#1B3A6B] hover:gap-2.5 transition-all duration-200"
                       >
-                        {t("common.requestInfo")} <ArrowRight size={14} />
+                        {t("common.viewDetails") || "View Details"} <ArrowRight size={14} />
                       </button>
                     </div>
                   </div>
