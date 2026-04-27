@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useSiteData } from "../data";
@@ -8,6 +9,7 @@ const PAGE_SIZE = 4;
 export default function NewsPage() {
   const [page, setPage] = useState(1);
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const { news } = useSiteData();
 
   const totalPages = Math.ceil(news.length / PAGE_SIZE);
@@ -52,7 +54,7 @@ export default function NewsPage() {
                     {item.title}
                   </h2>
                   <p className="text-sm text-gray-500 leading-relaxed mb-5">{item.excerpt}</p>
-                  <button className="self-start flex items-center gap-2 text-sm font-semibold text-white bg-[#1B3A6B] px-5 py-2.5 rounded-xl hover:bg-[#15305a] hover:shadow-md hover:shadow-[#1B3A6B]/20 transition-all duration-200">
+                  <button onClick={() => navigate(`/news/${item.id}`)} className="self-start flex items-center gap-2 text-sm font-semibold text-white bg-[#1B3A6B] px-5 py-2.5 rounded-xl hover:bg-[#15305a] hover:shadow-md hover:shadow-[#1B3A6B]/20 transition-all duration-200">
                     {t("news.button")} <ChevronRight size={14} />
                   </button>
                 </div>

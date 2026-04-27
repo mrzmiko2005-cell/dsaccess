@@ -354,6 +354,73 @@ const uz = {
     },
     button: "Batafsil",
   },
+  newsDetail: {
+    notFound: "Maqola topilmadi",
+    backToNews: "Yangiliklarga qaytish",
+    latestNews: "So'nggi yangiliklar",
+    readingTimes: {
+      1: "3 daqiqalik o'qish",
+      2: "2 daqiqalik o'qish",
+      3: "2 daqiqalik o'qish",
+      4: "3 daqiqalik o'qish",
+      5: "2 daqiqalik o'qish",
+      6: "1 daqiqalik o'qish",
+    },
+    articles: {
+      1: {
+        paragraphs: {
+          1: "DS Access Group Sharqiy mintaqada yirik sanoat obyektini qurishni muvaffaqiyatli yakunladi, 12 000 kvadrat metr po'lat karkasli kompleksni muddatidan oldin topshirdi. 2025-yil boshida boshlangan ushbu loyiha kompaniya tarixidagi eng yirik bir martalik buyurtmalardan biri bo'lib, sanoat qurilishida samaradorlik bo'yicha yangi andaza o'rnatdi.",
+          2: "Kompleks 60 metr ochiq o'lchamli asosiy ishlab chiqarish sexini o'z ichiga oladi bo'lib, u mintaqaviy seysmik yuklarga hisoblangan maxsus ishlab chiqarilgan portal ramalariga tayanadi. Qo'shimcha konstruksiyalar ikki qavatli ma'muriy bino, yopiq yuklash doki va 50 tonnalik yuk ko'tarish qobiliyatli integratsiyalashgan kran yo'lakchasini o'z ichiga oladi.",
+          3: "Loyiha direktori Anton Kuznetsov muddatidan oldin topshirishni batafsil qurilishdan oldingi rejalashtirish va barcha sohalarda ilg'or BIM-koordinatsiyadan foydalanishga bog'ladi. «Po'lat maydonga yetib kelishidan oldan ziddiyatlarni raqamli tarzda hal qilib, biz mumkin bo'lgan qayta ishlashning bir necha haftasini oldini oldik va har bir montaj jadvalini o'z vaqtida saqlab qoldik», dedi u.",
+          4: "Mijoz allaqachon ikkinchi bosqichni buyurtma qildi, bu qo'shimcha 8 000 kvadrat metr yopiq ombor va maxsus temiryo'l tarmog'ini qo'shadi. Qurilish 2026-yil uchinchi choragida boshlanishi kutilmoqda.",
+        },
+      },
+      2: {
+        paragraphs: {
+          1: "DS Access Group o'z ishlab chiqarish jarayoniga yangi avlod antikorrozion qoplash tizimini joriy etdi, bu po'lat konstruksiyalarning ishlatish muddatini an'anaviy himoya qoplamalariga nisbatan 40 foizgacha uzaytiradi.",
+          2: "Yangi tizim termik purkalgan rux-alyuminiy qotishmasi asosiy qatlamini maxsus ftorpolimer ustki qoplamasi bilan birlashtirib, namlik, sho'rlangan tuman va sanoat ifloslantiruvchilariga ko'p darajali himoya yaratadi. Mustaqil laboratoriya sinovlari ISO 12944 C5-M dengiz muhit sharoitlarida kamida 25 yillik texnik xizmatsiz intervalni tasdiqladi.",
+          3: "Bosh texnologiya direktori Marina Volkova qoplamaning yangilangan ishlab chiqarish liniyasida bitta uzluksiz jarayonda qo'llanishini ta'kidladi. «Bu faqat materiallarni yangilash emas — bu yetkazib berish muddatlarini qisqartirib, yuqori sifatli uzoq muddatli himoyani ta'minlaydigan jarayon innovatsiyasi», deb tushuntirdi u.",
+          4: "Texnologiya endi barcha yangi shartnomalarda standart hisoblanadi va mavjud konstruksiyalar uchun modernizatsiya varianti sifatida mavjud. Bir nechta yirik mijozlar allaqachon joriy loyihalarda yangi qoplamani tanladilar.",
+        },
+      },
+      3: {
+        paragraphs: {
+          1: "DS Access Group payvandlash sifati bo'yicha ISO 3834 sertifikatiga ega bo'ldi, bu kompaniyaning ishlab chiqarish jarayonlari metall materiallarni eritib payvandlash bo'yicha xalqaro darajada tan olingan standartlarga javob berishini tasdiqlaydi.",
+          2: "Akkreditatsiyalashgan organ tomonidan keng qamrovli audit o'tkazilgandan so'ng berilgan sertifikat kompaniyaning asosiy ishlab chiqarish obyektidagi barcha payvandlash operatsiyalarini qamrab oladi. U butun payvandlash sifati tizimini — payvandchilarni malakasini oshirish va protseduralarni tasdiqlashdan nazorat, sinov va hujjatlarni rasmiylashtirishgacha tasdiqlaydi.",
+          3: "Sifatni ta'minlash direktori Sergey Petrov ISO 3834 sertifikatsiyasi yirik infratuzilma mijozlari tomonidan tobora ko'proq talab qilinayotganini ta'kidladi. «Bu sertifikat payvandlash yaxlitligi kelishilmas bo'lgan kattaroq va texnik jihatdan murakkabroq loyihalarga yo'l ochadi», dedi u.",
+          4: "Kompaniya endi EN 1090 ijro sinfi EXC3 qo'shimcha akkreditatsiyasini o'z oldiga qo'ydi, bu ISO 3834 bilan birga DS Access Group ni eng talabchan konstruksion po'lat qo'llanmalari uchun to'liq malakali ishlab chiqaruvchi sifatida pozitsiyalaydi.",
+        },
+      },
+      4: {
+        paragraphs: {
+          1: "DS Access Group asosiy ishlab chiqarish maydonchasida yangi CNC ishlov berish sexini ochdi, bu oylik ishlab chiqarish quvvatini 800 tonnaga oshirdi va yirik hajmdagi buyurtmalar uchun ahamiyatli darajada tezroq tayyorlashni ta'minlaydi.",
+          2: "3 200 kvadrat metrli sex besh o'qli CNC burg'ich va frezalash markazlari, avtomatik kesish liniyalari va robotlashtirilgan belgilash tizimlari bilan jihozlangan. Uskunalar 1 500 mm gacha chuqurlikdagi va 1 200 mm gacha kenglikdagi profillarni qayta ishlashi mumkin.",
+          3: "Ishlab chiqarish direktori Dmitriy Ivanov loyihalarni rejalashtirishga ta'sirni ta'kidladi: «Yangi CNC liniyalari bilan o'rtacha ishlab chiqarish siklini 30 foizga qisqartirdik. Mijozlar uchun bu po'lat avvalgiga qaraganda haftalar oldinroq maydonga yetib kelishini anglatadi».",
+          4: "Sex, shuningdek, mijozlarga xom ashyoni qabul qilishdan tortib yakuniy inspeksiya va yuborishgacha ishlab chiqarish jarayonining holatini ko'rish imkonini beruvchi real vaqtda kuzatish tizimi bilan jihozlangan.",
+        },
+      },
+      5: {
+        paragraphs: {
+          1: "DS Access Group Yevropaning yetakchi po'lat ishlab chiqaruvchisi bilan strategik yetkazib berish shartnomasi tuzdi, barcha joriy va kelgusi loyihalar uchun premium sinfli konstruksion po'latga barqaror kirishni ta'minladi.",
+          2: "Ko'p yillik shartnoma S355 va S460 sinfli issiq prokat profillar, plitalar va bo'shliqli qismlarni ustuvor taqsimlashni kafolatlaydi — so'nggi yillarda yetkazib berishda sezilarli o'zgaruvchanlikni boshdan kechirgan materiallar. Hamkorlik, shuningdek, materiallarni optimallashtirish va yuqori unumdorlikli ulanish tafsilotlarini birgalikda ishlab chiqish bo'yicha texnik hamkorlikni o'z ichiga oladi.",
+          3: "Xaridlar direktori Natalya Orlova shartnomani yetkazib berish zanjiri xavflarini kamaytirishda muhim qadam deb atadi. «Mijozlarimiz sifat va yetkazib berish muddatlarida ishonchlilikni kutishadi. Bu hamkorlik loyiha noaniqligining asosiy manbasini yo'q qiladi va bizga yanada ishonch bilan oldinga rejalashtirish imkonini beradi».",
+          4: "Shartnoma darhol kuchga kiradi va barcha yangi shartnomalarni qamrab oladi. Mavjud loyihalar joriy zaxiralar sarflangach yangi yetkazib berish kanaliga o'tkaziladi.",
+        },
+      },
+      6: {
+        paragraphs: {
+          1: "DS Access Group o'z ishlab chiqarish va montaj jamoalari 1 000 ketma-ket baxtsiz hodisasiz ish kunlariga erishganini — kompaniyaning ish joyidagi xavfsizlikka chuqur sodiqligini aks ettiruvchi muhim bosqichni ma'lum qildi.",
+          2: "Rekord asosiy ishlab chiqarish obyektidagi barcha operatsiyalarni va 40 dan ortiq faol qurilish maydonchalarini qamrab oladi. U kunlik xavf haqida ma'lumotlar, oylik xulq-atvor xavfsizlik kuzatuvlari va 2 000 dan ortiq proaktiv aralashuvlarni qayd etgan xavfsiz holatlar haqida xabar berish tizimini o'z ichiga olgan keng qamrovli xavfsizlik dasturi orqali erishildi.",
+          3: "Mehnat muhofazasi menejeri Aleksey Morozov jamoa xizmatlarini ta'kidladi: «Bu qog'ozdagi siyosatlar haqida emas — bu har bir smenada xavfsizlikni birinchi o'ringa qo'yadigan har bir inson haqida. Ish vaqtini yo'qotish hodisasisiz ming kun — bu har bir jamoa a'zosi faxrlanishi mumkin bo'lgan jamoa yutug'idir».",
+          4: "Kompaniya endi keyingi 1 500 kunlik bosqichni maqsad qilgan va qo'shimcha xavfsizlik mashg'ulotlari simulyatorlari va uzoq loyiha joylari uchun kengaytirilgan tibbiy muassasalarga investitsiya qilish majburiyatini oldi.",
+        },
+      },
+    },
+    ctaEyebrow: "Bog'lanish",
+    ctaTitle: "Ushbu maqola bo'yicha savollaringiz bormi?",
+    ctaDescription: "Bizning jamoamiz qo'shimcha tafsilotlarni taqdim etish va bizning imkoniyatlarimiz sizning loyihalaringizni qanday qo'llab-quvvatlashi haqida muhokama qilishga tayyor.",
+    ctaButton: "Bog'lanish",
+  },
   contacts: {
     header: {
       eyebrow: "Biz bilan bog'laning",

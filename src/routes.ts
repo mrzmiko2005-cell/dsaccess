@@ -9,6 +9,7 @@ export const PAGE_PATHS: Record<PageId, string> = {
 };
 
 export const PRODUCT_DETAIL_PATH = "/products/:id";
+export const NEWS_DETAIL_PATH = "/news/:id";
 
 export const PAGE_TITLE_KEYS: Record<PageId, string> = {
   home: "meta.pages.home",

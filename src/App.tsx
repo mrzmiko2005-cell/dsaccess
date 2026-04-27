@@ -9,8 +9,9 @@ import AboutPage from "./pages/AboutPage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import NewsPage from "./pages/NewsPage";
+import NewsDetailPage from "./pages/NewsDetailPage";
 import ContactsPage from "./pages/ContactsPage";
-import { getPageIdFromPath, PAGE_PATHS, PAGE_TITLE_KEYS, PRODUCT_DETAIL_PATH } from "./routes";
+import { getPageIdFromPath, PAGE_PATHS, PAGE_TITLE_KEYS, PRODUCT_DETAIL_PATH, NEWS_DETAIL_PATH } from "./routes";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -49,6 +50,7 @@ function AppContent() {
           <Route path={PAGE_PATHS.products} element={<ProductsPage />} />
           <Route path={PRODUCT_DETAIL_PATH} element={<ProductDetailPage />} />
           <Route path={PAGE_PATHS.news} element={<NewsPage />} />
+          <Route path={NEWS_DETAIL_PATH} element={<NewsDetailPage />} />
           <Route path={PAGE_PATHS.contacts} element={<ContactsPage />} />
           <Route path="*" element={<Navigate to={PAGE_PATHS.home} replace />} />
         </Routes>

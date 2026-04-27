@@ -354,6 +354,73 @@ const en = {
     },
     button: "Read More",
   },
+  newsDetail: {
+    notFound: "Article not found",
+    backToNews: "Back to News",
+    latestNews: "Latest News",
+    readingTimes: {
+      1: "3 min read",
+      2: "2 min read",
+      3: "2 min read",
+      4: "3 min read",
+      5: "2 min read",
+      6: "1 min read",
+    },
+    articles: {
+      1: {
+        paragraphs: {
+          1: "DS Access Group has successfully completed the construction of a major industrial facility in the Eastern Region, delivering a 12,000 square meter steel-frame complex ahead of schedule. The project, which began in early 2025, represents one of the largest single-structure commissions in the company's history and sets a new benchmark for efficiency in industrial construction.",
+          2: "The facility comprises a primary manufacturing hall with a clear span of 60 meters, supported by custom-fabricated portal frames engineered to withstand regional seismic loads. Secondary structures include a two-story administrative wing, a covered loading dock, and an integrated crane runway system rated for 50-ton overhead loads.",
+          3: "Project Director Anton Kuznetsov attributed the early delivery to meticulous pre-construction planning and the use of advanced BIM coordination across all trades. \"By resolving clashes digitally before steel ever reached the site, we eliminated weeks of potential rework and kept every erection sequence on track,\" he said.",
+          4: "The client has already commissioned a second phase, which will add an additional 8,000 square meters of covered storage and a dedicated rail siding. Construction is expected to begin in the third quarter of 2026.",
+        },
+      },
+      2: {
+        paragraphs: {
+          1: "DS Access Group has integrated a next-generation anti-corrosion coating system into its production pipeline, a move that extends the operational lifespan of steel structures by up to 40 percent compared to conventional protective treatments.",
+          2: "The new system combines a thermally sprayed zinc-aluminum alloy base layer with a proprietary fluoropolymer topcoat, creating a multi-barrier defense against moisture, salt spray, and industrial pollutants. Independent laboratory testing confirmed a minimum 25-year maintenance-free interval under ISO 12944 C5-M marine environment conditions.",
+          3: "Chief Technology Officer Marina Volkova noted that the coating can be applied in a single continuous process on the company's upgraded production line, eliminating the multi-day curing cycles required by previous systems. \"This isn't just a materials upgrade — it's a process innovation that shortens lead times while delivering superior long-term protection,\" she explained.",
+          4: "The technology is now standard on all new contracts and is available as a retrofit option for existing structures. Several major clients have already opted to specify the new coating on current projects.",
+        },
+      },
+      3: {
+        paragraphs: {
+          1: "DS Access Group has achieved ISO 3834 certification for welding quality, confirming that the company's fabrication processes meet internationally recognized standards for fusion welding of metallic materials.",
+          2: "The certification, awarded after a comprehensive audit by an accredited body, covers all welding operations across the company's main production facility. It validates the entire welding quality system — from welder qualification and procedure approval to inspection, testing, and documentation.",
+          3: "Quality Assurance Director Sergei Petrov emphasized that ISO 3834 certification is increasingly required by major infrastructure clients. \"This certification opens doors to larger, more technically demanding projects where welding integrity is non-negotiable,\" he stated.",
+          4: "The company is now pursuing complementary EN 1090 execution class EXC3 accreditation, which together with ISO 3834 will position DS Access Group as a fully qualified fabricator for the most demanding structural steel applications.",
+        },
+      },
+      4: {
+        paragraphs: {
+          1: "DS Access Group has opened a new CNC machining facility at its main production site, increasing monthly production capacity by 800 tons and enabling significantly faster turnaround for large-scale orders.",
+          2: "The 3,200 square meter facility houses five-axis CNC drilling and milling centers, automated sawing lines, and robotic marking systems. The equipment can process sections up to 1,500 mm deep and 1,200 mm wide, covering the full range of standard structural profiles used in heavy industrial construction.",
+          3: "Operations Director Dmitry Ivanov highlighted the impact on project scheduling: \"With the new CNC lines, we've reduced our average fabrication cycle by 30 percent. For clients, that means steel on site weeks earlier than previously possible.\"",
+          4: "The facility also incorporates a real-time production tracking system that provides clients with visibility into fabrication progress, from raw material receipt through final inspection and dispatch.",
+        },
+      },
+      5: {
+        paragraphs: {
+          1: "DS Access Group has entered into a strategic supply agreement with a leading European steel producer, securing consistent access to premium-grade structural steel for all current and upcoming projects.",
+          2: "The multi-year agreement guarantees priority allocation of S355 and S460 grade hot-rolled sections, plates, and hollow sections — materials that have experienced significant supply volatility in recent years. The partnership also includes technical collaboration on material optimization and joint development of high-performance connection details.",
+          3: "Procurement Director Natalia Orlova described the agreement as a critical step in de-risking the company's supply chain. \"Our clients expect certainty on both quality and delivery. This partnership removes a major source of project uncertainty and allows us to plan further ahead with confidence.\"",
+          4: "The agreement takes effect immediately and covers all new contracts. Existing projects will transition to the new supply channel as current stock is consumed.",
+        },
+      },
+      6: {
+        paragraphs: {
+          1: "DS Access Group is proud to announce that its manufacturing and installation teams have achieved 1,000 consecutive accident-free work days — a milestone that reflects the company's deep commitment to workplace safety.",
+          2: "The record spans all operations at the main fabrication facility and across more than 40 active construction sites. It was achieved through a comprehensive safety program that includes daily hazard briefings, monthly behavioral safety observations, and a near-miss reporting system that has logged over 2,000 proactive interventions.",
+          3: "Health and Safety Manager Alexei Morozov credited the workforce: \"This isn't about policies on paper — it's about every person on every shift making safety their first priority. One thousand days without a lost-time incident is a collective achievement that every team member should be proud of.\"",
+          4: "The company is now targeting the next milestone of 1,500 days and has committed to investing in additional safety training simulators and expanded on-site medical facilities for remote project locations.",
+        },
+      },
+    },
+    ctaEyebrow: "Get in Touch",
+    ctaTitle: "Have Questions About This Story?",
+    ctaDescription: "Our team is ready to provide additional details and discuss how our capabilities can support your projects.",
+    ctaButton: "Contact Us",
+  },
   contacts: {
     header: {
       eyebrow: "Reach Us",
